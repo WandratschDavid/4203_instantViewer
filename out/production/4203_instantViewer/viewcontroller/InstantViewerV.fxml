@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewcontroller.InstantViewerC">
+   <children>
+      <HBox>
+         <children>
+            <Label text="Image:" />
+            <TextField fx:id="txtPicture" />
+            <Label text="candle/present/rudolf/tree.jpg"/>
+         </children>
+      </HBox>
+      <ImageView fx:id="imageView" fitHeight="100.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</VBox>
